@@ -19,6 +19,7 @@ function UserInput() {
   function handleOnSubmit(event) {
     event.preventDefault();
     dispatch({ type: "users/add", payload: formData });
+
   }
 
   return (
